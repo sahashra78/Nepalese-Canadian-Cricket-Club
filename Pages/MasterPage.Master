@@ -1,0 +1,90 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="Nepalese_Canadian_Cricket_Club.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nepalese Canadian Cricket Club</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" type="text/css" href="../Static/CSS/StyleSheet.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <nav>
+                <div class="wrapper navbar">
+                    <div>
+                        <a href="home.aspx">
+                            <img src="http://www.nccricketclub.org/Images/logos/nccc-logo-200x155.png" alt="sc" class="nav_logo"><!-- Logo for Navigation Bar> -->
+                        </a>
+                    </div>
+                    <div>
+                        <ul class="nav_links">
+                            <li>
+                                <a href="home.aspx">
+                                    <img src="http://www.nccricketclub.org/Images/logos/nccc-logo-200x155.png" alt="sc" class="mobile_logo"><!-- Logo for Navigation Bar> -->
+                                </a>
+                            </li>
+                            <li>
+                                <a href="membership.aspx">MEMBERSHIP</a>
+                            </li>
+                            <li>
+                                <div class="dropdown">
+                                    <button class="drop_button" type="button">TEAM <span class="drop_icon fas fa-caret-down"></span></button>
+                                    <div class="dropdown_content">
+                                        <a href="players.aspx">PLAYER</a>
+                                        <a href="PlayerProfile.aspx">Player Profile</a>
+                                        <a href="https://codepen.io/picks/pens/">PLAYER</a>
+                                        <a href="https://codepen.io/Codepalm/pen/LYPZYVp">BOARD</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="https://codepen.io/jorgemoovein-the-bashful/pen/rNOXXxb" id="contactLink">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="burger">
+                        <div class="burger1"></div>
+                        <div class="burger2"></div>
+                        <div class="burger3"></div>
+                    </div>
+
+                </div>
+            </nav>
+            <div id="navbar-collapser">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+                <footer>
+                    <div class="footer_content wrapper">
+                        <div>
+                            <a href="home.aspx">
+                                <img src="http://www.nccricketclub.org/Images/logos/nccc-logo-200x155.png" alt="sc" class="footer_logo" /></a><br />
+                            <a href="https://www.facebook.com/nccricketclub/" target="_blank"><i class='social_icon fab fa-facebook-square'></i></a>
+                            <a href="https://www.youtube.com/channel/UCzpUB3zYs8BbFiIBs5cIl5w/videos" target="_blank"><i class='social_icon fab fa-youtube'></i></a>
+                        </div>
+                        <div>
+                            <ul>
+                                <li><a href="#">MEMBERSHIP</a></li>
+                                <li><a href="#">SPONSORS</a></li>
+                                <li><a href="#">PLAYERS</a></li>
+                                <li><a href="#">BOARD</a></li>
+                                <li><a href="#">ABOUT US</a></li>
+                                <li>contact@nccricketclub.org</li>
+                                <li>@2020 Nepalese Canadian Cricket Club</li>
+                            </ul>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </form>
+    <script src="../Static/JS/JavaScript.js"></script>
+</body>
+</html>
