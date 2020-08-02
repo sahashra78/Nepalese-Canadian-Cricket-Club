@@ -52,7 +52,7 @@
                 </a>
             </div>
         </div>
-        <div class="wrapper container">
+        <div class="wrapper container center">
             <h2>Most Valued Players</h2>
             <span class="slider_control_left fas fa-angle-left" id="slider_control_left"></span>
             <span class="slider_control_right fas fa-angle-right" id="slider_control_right"></span>

@@ -92,16 +92,33 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Pages\AboutUs.aspx" />
+    <Content Include="Pages\Board.aspx" />
     <Content Include="Pages\Home.aspx" />
     <Content Include="Pages\Membership.aspx" />
     <Content Include="Pages\PlayerProfile.aspx" />
     <Content Include="Pages\Players.aspx" />
+    <Content Include="Pages\Sponsor.aspx" />
     <Content Include="Static\CSS\StyleSheet.css" />
     <Content Include="Static\JS\JavaScript.js" />
     <Content Include="Static\Images\Logos\paypal.png" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Pages\AboutUs.aspx.designer.vb">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\AboutUs.aspx.vb">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Board.aspx.designer.vb">
+      <DependentUpon>Board.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Board.aspx.vb">
+      <DependentUpon>Board.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Pages\Home.aspx.designer.vb">
       <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
@@ -154,6 +171,13 @@
     </Compile>
     <Compile Include="Pages\Players.aspx.vb">
       <DependentUpon>Players.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Sponsor.aspx.designer.vb">
+      <DependentUpon>Sponsor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Sponsor.aspx.vb">
+      <DependentUpon>Sponsor.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>

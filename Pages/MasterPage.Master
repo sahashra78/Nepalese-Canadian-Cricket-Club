@@ -40,13 +40,13 @@
                                     <div class="dropdown_content">
                                         <a href="players.aspx">PLAYER</a>
                                         <a href="PlayerProfile.aspx">Player Profile</a>
-                                        <a href="https://codepen.io/picks/pens/">PLAYER</a>
-                                        <a href="https://codepen.io/Codepalm/pen/LYPZYVp">BOARD</a>
+                                        <a href="board.aspx">BOARD</a>
+                                        <a href="sponsor.aspx">SPONSORS</a>
                                     </div>
                                 </div>
                             </li>
                             <li>
-                                <a href="https://codepen.io/jorgemoovein-the-bashful/pen/rNOXXxb" id="contactLink">Contact</a>
+                                <a href="AboutUs.aspx" id="contactLink">About Us</a>
                             </li>
                         </ul>
                     </div>
@@ -71,11 +71,11 @@
                         </div>
                         <div>
                             <ul>
-                                <li><a href="#">MEMBERSHIP</a></li>
-                                <li><a href="#">SPONSORS</a></li>
-                                <li><a href="#">PLAYERS</a></li>
-                                <li><a href="#">BOARD</a></li>
-                                <li><a href="#">ABOUT US</a></li>
+                                <li><a href="membership.aspx">MEMBERSHIP</a></li>
+                                <li><a href="sponsor.aspx">SPONSORS</a></li>
+                                <li><a href="players.aspx">PLAYERS</a></li>
+                                <li><a href="board.aspx">BOARD</a></li>
+                                <li><a href="aboutUs.aspx">ABOUT US</a></li>
                                 <li>contact@nccricketclub.org</li>
                                 <li>@2020 Nepalese Canadian Cricket Club</li>
                             </ul>

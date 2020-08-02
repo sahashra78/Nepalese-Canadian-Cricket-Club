@@ -14,8 +14,8 @@
         </div>
         <br />
         <br />
-        <div class="wrapper">
-            <div class="profile_info_container" id="Aayush-Dhamala">
+        <div class="blocks">
+            <div class="profile_info_container block" id="Aayush-Dhamala">
                 <div>
                     <img src="http://www.nccricketclub.org/Images/players/aayush-dhamala.jpg" class="responsive" alt="Aayush-Dhamala" />
                 </div>
@@ -28,7 +28,7 @@
                     <p><strong>Team:</strong> </p>
                 </div>
             </div>
-            <div class="profile_info_container" id="Amrit-Thapa">
+            <div class="profile_info_container block" id="Amrit-Thapa">
                 <div>
                     <img src="http://www.nccricketclub.org/Images/players/amrit-thapa.jpg" class="responsive" alt="Amrit-Thapa" />
                 </div>
